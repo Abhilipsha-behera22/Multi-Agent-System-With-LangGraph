@@ -9,7 +9,7 @@ The system is designed as a Stateful Directed Acyclic Graph (DAG) where data (th
 
 **The Writer (Synthesis Node):** Consumes the "State" updated by the Researcher. Using Gemini 2.5 Flash, it synthesizes raw search results into a polished, Markdown-formatted blog post.
 
-##Key Features
+## Key Features
 **Agentic Orchestration:** Uses LangGraph to manage complex state transitions and "hand-offs" between agents.
 
 **Real-Time Grounding:** Eliminates hallucinations by grounding all generated content in live web search data.
